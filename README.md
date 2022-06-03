@@ -1,5 +1,6 @@
 # calculadora-de-precos
-calculadora de preços/precificação de produtos, com base em impostos
+*calculadora de preços/precificação de produtos, com base em impostos.
+
 a funcionalidade do site é calcular o valor a ser cobrado em seu produto, com base em porcentagem de impostos, e preço de frete
 que varia dependendo do tipo de produto e qual estado ele foi fabricado e transportando, para facilitar esse calculo tive a ideia
 dessa aplicação.
