@@ -1,0 +1,58 @@
+html, body {
+ background-color: #020803;
+font-family: 'VT323', monospace;
+ text-align:center;
+height: auto;
+  width: 100%;
+
+}
+h1{
+  color:#0cca2c ;
+
+}
+
+h2{
+  color:#cf0f0f;
+}
+
+
+h3{
+  color:#0cca2c;
+
+}
+
+input[type='number']{
+width:100px;
+color:#aa0e0e;
+
+  
+}
+
+.input{
+  background: #051403;
+  
+  border-radius: 50px;
+  color: #aa0e0e;
+  cursor: pointer;
+  font-weight: bold;
+  
+  
+}
+
+.botao{
+font: 'VT323';
+font-weight: bold;
+  cursor: pointer;
+ background: #000000;
+  margin-bottom:10px;
+
+ 
+  
+}
+div,section{
+  font-family: 'VT323',monospace;
+  margin-block-start: 1px;
+  margin-block-end: 32px;
+  font-size: 20px;
+}
+

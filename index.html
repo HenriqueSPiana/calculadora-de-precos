@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="Precificando" content="width=device-width">
+  <title>Precificação</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="img/faviicon.png" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=VT323&display=swap" rel="stylesheet">
+ <script src="script.js"></script>
+
+</head>
+
+<body>
+
+  <section class='titulo'>
+
+    <p><h1 class="titulo2">Precificando meu Produto</h1></p>
+
+    
+<div class="sub"><h2>Calcule o preço para aplicar em seu produto, com base em seus gastos de materia prima(custo de produção),impostos e frete.</p></h2></div> </section>
+
+  <section class='grande'>
+<div><h3>Digite o custo de produção <input id="produto" type="number" class="input" value="10"></h3></div>
+<div><h3>Digite o custo com frete / Envio <input id="frete" type="number" class="input" value="3"></h3></div>
+<div><h3>digite  IPI de seu produto(caso tenha) <input id="ipi" type="number" class="input" value="10" > %</div></h3>   
+<div><h3>Digite do ICMS de seu estado <input id="icms" type="number" class="input" value="17">%</h3></div>
+<div><h3> Digite a margem de lucro <input id="lucro" type="number" class="input" value="50">%</h3> </div>
+<div id="coust"><h3>Seu produto tem custo de ???</h3></div>
+<div id="resultado"><h3>O valor a ser cobrado é de ???</h3></div>
+<button class=botao onclick='calcular()' ><h3>Calcular</h3></button>
+
+    </section>
+</body>
+</html>
