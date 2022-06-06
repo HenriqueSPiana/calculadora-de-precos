@@ -54,7 +54,8 @@ var coust = document.getElementById("coust");
 coust.innerHTML = "<h3> Seu produto tem custo de R$" + custo.toFixed(2) +"</h3>"  
 
 
-}```
+}
+```
 
 
 
@@ -110,4 +111,5 @@ var coust = document.getElementById("coust");
 coust.innerHTML = "<h3> Seu produto tem custo de R$" + custo.toFixed(2) +"</h3>"  
 
 
-} ```
+} 
+```
