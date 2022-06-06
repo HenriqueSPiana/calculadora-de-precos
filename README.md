@@ -19,7 +19,7 @@ A partir do valor de custo é apresentado o valor do produto após a aplicação
 
 segue a função:
 
-function calcular(){
+'''function calcular(){
 
   var produto = Number(document.getElementById("produto").value)
 
@@ -52,7 +52,7 @@ coust.innerHTML = "<h3> Seu produto tem custo de R$" + custo.toFixed(2) +"</h3>"
 
 
 }
-
+'''
 
 
 *Product price calculator*
@@ -74,7 +74,7 @@ From the cost value, the value of the product is displayed after applying the pr
 
 follows the function:
 
-function calcular(){
+'''function calcular(){
 
   var produto = Number(document.getElementById("produto").value)
 
@@ -106,4 +106,4 @@ var coust = document.getElementById("coust");
 coust.innerHTML = "<h3> Seu produto tem custo de R$" + custo.toFixed(2) +"</h3>"  
 
 
-}
+}'''
